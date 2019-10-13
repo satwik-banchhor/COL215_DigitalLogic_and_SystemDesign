@@ -3,12 +3,12 @@ Assignment 4
 7 - Segment LED display Logic
 
 Inputs:
-1.	16 Switches: 16 Inputs as four 4-bit decimal/hexadecimal digit
-2.	Clock: clk -- On-Board clock of the BASYS3 board
+	1. 16 Switches: 16 Inputs as four 4-bit decimal/hexadecimal digit
+	2. Clock: clk -- On-Board clock of the BASYS3 board
 
 Outputs:
-1.	 4 Anodes: For the 4 seven-segment displays
-2.	 7 Cathodes : To seven segments of the selected anode
+	1. 4 Anodes: For the 4 seven-segment displays
+	2. 7 Cathodes : To seven segments of the selected anode
 
 Frequency Divider: Made using 18 bit synchronous counter implemented by 18 T-flip flops. Each subsequent significant bit divides the previous frequency by 2. This brings the frequency 100MHz of the on-board clock of the BASYS3 board in the required range.
 
